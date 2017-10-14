@@ -2,6 +2,11 @@
 
 Shareable config for [eslint]. Uses rules from [`eslint-plugin-import`], [`eslint-plugin-compat`], [`eslint-plugin-react`] and [`eslint-plugin-node`].
 
+[![build status](https://img.shields.io/travis/priver/eslint-config-priver/master.svg?style=flat-square)](https://travis-ci.org/priver/eslint-config-priver)
+[![npm version](https://img.shields.io/npm/v/eslint-config-priver.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-priver)
+[![npm downloads](https://img.shields.io/npm/dm/eslint-config-priver.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-priver)
+[![license](https://img.shields.io/github/license/priver/eslint-config-priver.svg?style=flat-square)](https://github.com/priver/eslint-config-priver/blob/master/LICENSE.txt)
+
 ## Installation
 
 Install the correct versions of each package, which are listed by the command:

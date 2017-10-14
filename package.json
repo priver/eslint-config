@@ -1,0 +1,58 @@
+{
+  "name": "eslint-config-priver",
+  "version": "1.0.0",
+  "description": "Shareable config for eslint",
+  "main": "index.js",
+  "files": [
+    "rules",
+    "base.js",
+    "index.js",
+    "node.js",
+    "react.js"
+  ],
+  "scripts": {
+    "lint:js": "eslint .",
+    "lint": "npm run lint:js",
+    "unused:index": "eslint-find-rules --unused ./index.js",
+    "unused:react": "eslint-find-rules --unused ./react.js",
+    "unused:node": "eslint-find-rules --unused ./node.js",
+    "unused": "npm run unused:index && npm run unused:react && npm run unused:node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/airbnb/eslint-config-priver",
+  "bugs": "https://github.com/priver/eslint-config-priver/issues",
+  "repository": "priver/eslint-config-priver",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "priver",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Mikhail Priver <m.priver@gmail.com> (https://github.com/priver)",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-restricted-globals": "^0.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.8.0",
+    "eslint-find-rules": "^3.1.1",
+    "eslint-plugin-compat": "^2.0.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.8.0",
+    "eslint-plugin-compat": "^2.0.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}

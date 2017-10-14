@@ -19,7 +19,7 @@
     "unused": "yarn run --silent unused:index && yarn run --silent unused:react && yarn run --silent unused:node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/airbnb/eslint-config-priver",
+  "homepage": "https://github.com/priver/eslint-config-priver",
   "bugs": "https://github.com/priver/eslint-config-priver/issues",
   "repository": "priver/eslint-config-priver",
   "keywords": [

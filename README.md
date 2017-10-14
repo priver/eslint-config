@@ -43,11 +43,13 @@ Add the following in your `.eslintrc.json`:
     "extends": "eslint-config-priver/react",
     "settings": {
         "react": {
-            "version": "15.0" // React version, default to the latest React stable release
+            "version": "15.0"
         }
     }
 }
 ```
+
+By default the latest React stable release is used.
 
 ### Node
 

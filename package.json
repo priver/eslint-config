@@ -12,11 +12,11 @@
   ],
   "scripts": {
     "lint:js": "eslint .",
-    "lint": "npm run lint:js",
+    "lint": "yarn run --silent lint:js",
     "unused:index": "eslint-find-rules --unused ./index.js",
     "unused:react": "eslint-find-rules --unused ./react.js",
     "unused:node": "eslint-find-rules --unused ./node.js",
-    "unused": "npm run unused:index && npm run unused:react && npm run unused:node",
+    "unused": "yarn run --silent unused:index && yarn run --silent unused:react && yarn run --silent unused:node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "homepage": "https://github.com/airbnb/eslint-config-priver",

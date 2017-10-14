@@ -36,6 +36,7 @@ module.exports = {
         'line-comment-position': 'off',
         'linebreak-style': ['error', 'unix'],
         'lines-around-comment': 'off',
+        'lines-between-class-members': ['error', 'always'],
         'max-depth': 'off',
         'max-len': ['error', 120, 4, {ignoreUrls: true, ignoreRegExpLiterals: true}],
         'max-lines': 'off',
@@ -43,6 +44,7 @@ module.exports = {
         'max-params': 'off',
         'max-statements': 'off',
         'max-statements-per-line': ['error', {max: 1}],
+        'multiline-comment-style': ['error', 'starred-block'],
         'multiline-ternary': ['error', 'always-multiline'],
         'new-cap': ['error', {
             newIsCap: true,

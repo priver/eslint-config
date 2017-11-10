@@ -17,7 +17,7 @@
     "unused:react": "eslint-find-rules --unused ./react.js",
     "unused:node": "eslint-find-rules --unused ./node.js",
     "unused": "yarn run --silent unused:index && yarn run --silent unused:react && yarn run --silent unused:node",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "yarn run --silent lint && yarn run --silent unused"
   },
   "homepage": "https://github.com/priver/eslint-config-priver",
   "bugs": "https://github.com/priver/eslint-config-priver/issues",
@@ -36,20 +36,20 @@
     "eslint-restricted-globals": "^0.1.1"
   },
   "devDependencies": {
-    "babel-eslint": "^8.0.1",
-    "eslint": "^4.9.0",
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.10.0",
     "eslint-find-rules": "^3.1.1",
     "eslint-plugin-compat": "^2.0.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-react": "^7.4.0"
   },
   "peerDependencies": {
-    "babel-eslint": "^8.0.1",
-    "eslint": "^4.9.0",
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.10.0",
     "eslint-plugin-compat": "^2.0.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-react": "^7.4.0"
   },
   "engines": {

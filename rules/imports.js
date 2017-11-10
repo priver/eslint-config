@@ -45,6 +45,7 @@ module.exports = {
         'import/first': ['error', 'absolute-first'],
         'import/no-duplicates': 'error',
         'import/no-namespace': 'error',
+        'import/exports-last': 'error',
         'import/extensions': ['error', 'always', {js: 'never'}],
         'import/order': ['error', {
             'groups': ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],

@@ -20,9 +20,9 @@ npm info @priver/eslint-config peerDependencies
 Then install install this package:
 
 ```bash
-yarn add @priver/config-priver --dev
+yarn add @priver/eslint-config --dev
 # or
-npm install @priver/config-priver --save-dev
+npm install @priver/eslint-config --save-dev
 ```
 
 ## Usage

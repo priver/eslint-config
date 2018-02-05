@@ -3,12 +3,16 @@
 module.exports = {
     rules: {
         'react/boolean-prop-naming': 'error',
+        'react/button-has-type': 'error',
         'react/default-props-match-prop-types': 'error',
+        'react/destructuring-assignment': 'off',
         'react/display-name': 'off',
         'react/forbid-component-props': 'off',
+        'react/forbid-dom-props': 'off',
         'react/forbid-elements': 'off',
         'react/forbid-prop-types': 'off',
         'react/forbid-foreign-prop-types': 'off',
+        'react/no-access-state-in-setstate': 'off',
         'react/no-array-index-key': 'error',
         'react/no-children-prop': 'error',
         'react/no-danger': 'warn',
@@ -23,6 +27,7 @@ module.exports = {
         'react/no-redundant-should-component-update': 'error',
         'react/no-render-return-value': 'error',
         'react/no-set-state': 'off',
+        'react/no-this-in-sfc': 'error',
         'react/no-typos': 'error',
         'react/no-string-refs': 'error',
         'react/no-unescaped-entities': 'error',
@@ -44,6 +49,7 @@ module.exports = {
         'react/void-dom-elements-no-children': 'error',
 
         'react/jsx-boolean-value': ['error', 'never'],
+        'react/jsx-child-element-spacing': 'error',
         'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
         'react/jsx-closing-tag-location': 'error',
         'react/jsx-curly-brace-presence': ['error', {props: 'never', children: 'never'}],
@@ -66,8 +72,10 @@ module.exports = {
         'react/jsx-no-literals': 'error',
         'react/jsx-no-target-blank': 'error',
         'react/jsx-no-undef': 'error',
+        'react/jsx-one-expression-per-line': 'error',
         'react/jsx-pascal-case': 'error',
         'react/jsx-sort-props': 'off',
+        'react/jsx-sort-default-props': 'error',
         'react/jsx-tag-spacing': ['error', {
             closingSlash: 'never',
             beforeSelfClosing: 'always',

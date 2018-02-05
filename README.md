@@ -1,11 +1,11 @@
 # eslint-config-priver
 
-Shareable config for [eslint]. Uses rules from [`eslint-plugin-import`], [`eslint-plugin-compat`], [`eslint-plugin-react`] and [`eslint-plugin-node`].
+Shareable config for [eslint]. Uses rules from [`eslint-plugin-import`], [`eslint-plugin-react`] and [`eslint-plugin-node`].
 
-[![build status](https://img.shields.io/travis/priver/eslint-config-priver/master.svg?style=flat-square)](https://travis-ci.org/priver/eslint-config-priver)
-[![npm version](https://img.shields.io/npm/v/eslint-config-priver.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-priver)
-[![npm downloads](https://img.shields.io/npm/dm/eslint-config-priver.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-priver)
-[![license](https://img.shields.io/github/license/priver/eslint-config-priver.svg?style=flat-square)](https://github.com/priver/eslint-config-priver/blob/master/LICENSE.txt)
+[![build status](https://img.shields.io/travis/priver/eslint-config-priver/master.svg?style=flat-square)](https://travis-ci.org/priver/eslint-config)
+[![npm version](https://img.shields.io/npm/v/eslint-config-priver.svg?style=flat-square)](https://www.npmjs.com/package/@priver/eslint-config)
+[![npm downloads](https://img.shields.io/npm/dm/eslint-config-priver.svg?style=flat-square)](https://www.npmjs.com/package/@priver/eslint-config)
+[![license](https://img.shields.io/github/license/priver/eslint-config-priver.svg?style=flat-square)](https://github.com/priver/eslint-config/blob/master/LICENSE.txt)
 
 ## Installation
 
@@ -69,6 +69,5 @@ Add the following in your `.eslintrc.json`:
 
 [eslint]: http://eslint.org/
 [`eslint-plugin-import`]: https://github.com/benmosher/eslint-plugin-import
-[`eslint-plugin-compat`]: https://github.com/amilajack/eslint-plugin-compat
-[`eslint-plugin-react`]: https://github.com/davidtheclark/stylelint-selector-bem-pattern
+[`eslint-plugin-react`]: https://github.com/yannickcr/eslint-plugin-react
 [`eslint-plugin-node`]: https://github.com/mysticatea/eslint-plugin-node

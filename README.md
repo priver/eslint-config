@@ -12,17 +12,17 @@ Shareable config for [eslint]. Uses rules from [`eslint-plugin-import`], [`eslin
 Install the correct versions of each package, which are listed by the command:
 
 ```bash
-yarn info eslint-config-priver peerDependencies
+yarn info @priver/eslint-config peerDependencies
 # or
-npm info eslint-config-priver peerDependencies
+npm info @priver/eslint-config peerDependencies
 ```
 
 Then install install this package:
 
 ```bash
-yarn add eslint-config-priver --dev
+yarn add @priver/config-priver --dev
 # or
-npm install eslint-config-priver --save-dev
+npm install @priver/config-priver --save-dev
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ Add the following in your `.eslintrc.json`:
 ```json
 {
     "root": true,
-    "extends": "eslint-config-priver"
+    "extends": "@priver/eslint-config"
 }
 ```
 
@@ -45,7 +45,7 @@ Add the following in your `.eslintrc.json`:
 ```json
 {
     "root": true,
-    "extends": "eslint-config-priver/react",
+    "extends": "@priver/eslint-config/react",
     "settings": {
         "react": {
             "version": "15.0"
@@ -63,7 +63,7 @@ Add the following in your `.eslintrc.json`:
 ```json
 {
     "root": true,
-    "extends": "eslint-config-priver/node"
+    "extends": "@priver/eslint-config/node"
 }
 ```
 

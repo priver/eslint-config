@@ -2,10 +2,10 @@
 
 Shareable config for [eslint]. Uses rules from [`eslint-plugin-import`], [`eslint-plugin-react`] and [`eslint-plugin-node`].
 
-[![build status](https://img.shields.io/travis/priver/eslint-config-priver/master.svg?style=flat-square)](https://travis-ci.org/priver/eslint-config)
-[![npm version](https://img.shields.io/npm/v/eslint-config-priver.svg?style=flat-square)](https://www.npmjs.com/package/@priver/eslint-config)
-[![npm downloads](https://img.shields.io/npm/dm/eslint-config-priver.svg?style=flat-square)](https://www.npmjs.com/package/@priver/eslint-config)
-[![license](https://img.shields.io/github/license/priver/eslint-config-priver.svg?style=flat-square)](https://github.com/priver/eslint-config/blob/master/LICENSE.txt)
+[![build status](https://img.shields.io/travis/priver/eslint-config/master.svg?style=flat-square)](https://travis-ci.org/priver/eslint-config)
+[![npm version](https://img.shields.io/npm/v/@priver/eslint-config.svg?style=flat-square)](https://www.npmjs.com/package/@priver/eslint-config)
+[![npm downloads](https://img.shields.io/npm/dm/@priver/eslint-config.svg?style=flat-square)](https://www.npmjs.com/package/@priver/eslint-config)
+[![license](https://img.shields.io/github/license/priver/eslint-config.svg?style=flat-square)](https://github.com/priver/eslint-config/blob/master/LICENSE.txt)
 
 ## Installation
 

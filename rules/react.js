@@ -61,6 +61,7 @@ module.exports = {
         'react/jsx-indent': ['error', 4],
         'react/jsx-indent-props': ['error', 4],
         'react/jsx-key': 'error',
+        'react/jsx-max-depth': 'off',
         'react/jsx-max-props-per-line': ['error', {maximum: 1, when: 'multiline'}],
         'react/jsx-no-bind': ['error', {
             ignoreRefs: true,

@@ -1,4 +1,4 @@
-# eslint-config-priver
+# @priver/eslint-config
 
 Shareable config for [eslint]. Uses rules from [`eslint-plugin-import`], [`eslint-plugin-react`] and [`eslint-plugin-node`].
 

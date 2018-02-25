@@ -16,7 +16,11 @@
     "unused:react": "eslint-find-rules --unused ./react.js",
     "unused:node": "eslint-find-rules --unused ./node.js",
     "unused": "yarn unused:index && yarn unused:react && yarn unused:node",
-    "test": "yarn lint && yarn unused"
+    "deprecated:index": "eslint-find-rules --deprecated ./index.js",
+    "deprecated:react": "eslint-find-rules --deprecated ./react.js",
+    "deprecated:node": "eslint-find-rules --deprecated ./node.js",
+    "deprecated": "yarn deprecated:index && yarn deprecated:react && yarn deprecated:node",
+    "test": "yarn lint && yarn unused && yarn deprecated"
   },
   "homepage": "https://github.com/priver/eslint-config",
   "bugs": "https://github.com/priver/eslint-config/issues",
@@ -35,19 +39,19 @@
     "eslint-restricted-globals": "^0.1.1"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.17.0",
-    "eslint-find-rules": "^3.1.1",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-react": "^7.6.1"
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.1",
+    "eslint-find-rules": "^3.2.1",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-react": "^7.7.0"
   },
   "peerDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.17.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-react": "^7.6.1"
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.1",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-react": "^7.7.0"
   },
   "engines": {
     "node": ">=6"

@@ -11,7 +11,7 @@ module.exports = {
     rules: {
         // Static analysis
         'import/no-unresolved': ['error', {commonjs: true, caseSensitive: true}],
-        'import/named': 'off',
+        'import/named': 'error',
         'import/default': 'off',
         'import/namespace': 'off',
         'import/no-restricted-paths': 'off',
@@ -19,6 +19,7 @@ module.exports = {
         'import/no-dynamic-require': 'error',
         'import/no-internal-modules': 'off',
         'import/no-webpack-loader-syntax': 'error',
+        'import/no-self-import': 'error',
 
         // Helpful warnings
         'import/export': 'error',
@@ -34,6 +35,7 @@ module.exports = {
             optionalDependencies: false,
         }],
         'import/no-mutable-exports': 'error',
+        'import/no-useless-path-segments': 'error',
 
         // Module systems
         'import/unambiguous': 'off',
@@ -56,6 +58,8 @@ module.exports = {
         'import/max-dependencies': 'off',
         'import/no-unassigned-import': 'off',
         'import/no-named-default': 'error',
+        'import/no-default-export': 'off',
         'import/no-anonymous-default-export': 'off',
+        'import/group-exports': 'error',
     },
 };

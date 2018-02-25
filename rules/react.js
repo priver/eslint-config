@@ -11,7 +11,7 @@ module.exports = {
         'react/forbid-dom-props': 'off',
         'react/forbid-elements': 'off',
         'react/forbid-prop-types': 'off',
-        'react/forbid-foreign-prop-types': 'off',
+        'react/forbid-foreign-prop-types': ['error', {allowInPropTypes: true}],
         'react/no-access-state-in-setstate': 'off',
         'react/no-array-index-key': 'error',
         'react/no-children-prop': 'error',

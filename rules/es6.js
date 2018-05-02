@@ -2,13 +2,13 @@
 
 module.exports = {
     rules: {
-        'arrow-body-style': ['error', 'as-needed', {requireReturnForObjectLiteral: false}],
+        'arrow-body-style': ['error', 'as-needed', { requireReturnForObjectLiteral: false }],
         'arrow-parens': ['error', 'always'],
-        'arrow-spacing': ['error', {before: true, after: true}],
+        'arrow-spacing': ['error', { before: true, after: true }],
         'constructor-super': 'error',
-        'generator-star-spacing': ['error', {before: false, after: true}],
+        'generator-star-spacing': ['error', { before: false, after: true }],
         'no-class-assign': 'error',
-        'no-confusing-arrow': ['error', {allowParens: true}],
+        'no-confusing-arrow': 'off',
         'no-const-assign': 'error',
         'no-dupe-class-members': 'error',
         'no-duplicate-imports': 'off',
@@ -55,6 +55,6 @@ module.exports = {
         'sort-imports': 'off',
         'symbol-description': 'error',
         'template-curly-spacing': ['error', 'never'],
-        'yield-star-spacing': ['error', {before: false, after: true}],
+        'yield-star-spacing': ['error', { before: false, after: true }],
     },
 };

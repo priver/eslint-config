@@ -1,3 +1,7 @@
+# This repository has been moved into the [linters mono-repo](https://github.com/priver/linters) and has been archived.
+
+---
+
 # @priver/eslint-config
 
 Shareable config for [eslint]. Uses rules from [`eslint-plugin-import`], [`eslint-plugin-react`] and [`eslint-plugin-node`].

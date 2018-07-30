@@ -1,4 +1,4 @@
-# This repository has been moved into the [linters mono-repo](https://github.com/priver/linters) and has been archived.
+**This repository has been moved into the [linters mono-repo](https://github.com/priver/linters) and has been archived.**
 
 ---
 
